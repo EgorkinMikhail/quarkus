@@ -1,9 +1,20 @@
 package com.egorkin.tutorial.model;
 
+import java.util.List;
+
 public class GreetingResponse {
 
   private String greeting;
-  int dieRoll;
+  private int dieRoll;
+  private List<String> roomNumbers;
+
+  public List<String> getRoomNumbers() {
+    return roomNumbers;
+  }
+
+  public void setRoomNumbers(List<String> roomNumbers) {
+    this.roomNumbers = roomNumbers;
+  }
 
   public String getGreeting() {
     return greeting;
