@@ -7,6 +7,15 @@ public class GreetingResponse {
   private String greeting;
   private int dieRoll;
   private List<String> roomNumbers;
+  private List<String> guestEmails;
+
+  public List<String> getGuestEmails() {
+    return guestEmails;
+  }
+
+  public void setGuestEmails(List<String> guestEmails) {
+    this.guestEmails = guestEmails;
+  }
 
   public List<String> getRoomNumbers() {
     return roomNumbers;
